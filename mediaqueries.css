@@ -4,16 +4,20 @@
     margin-bottom: 6rem;
   }
   #projects {
+    margin-top: 20rem;
     height: fit-content;
   }
   #section__text__p1 {
     margin-top: 20rem;
   }
   .experience-details-container {
-    margin-top: 7rem;
+    margin-top: 0;
+  }
+  #about {
+    margin-top: 15rem;
+    margin-bottom: 18rem;
   }
 }
-
 
 @media screen and (max-width: 1400px) {
   #profile {
@@ -23,10 +27,37 @@
   .about-containers {
     flex-wrap: wrap;
   }
-  #contact,
   #projects {
+    margin-top: 20rem;
     height: fit-content;
   }
+  .projectText {
+    margin-top: 16rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  } 
+  .text {
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .skillText{
+    margin-top: 10rem;
+  }
+  .details-container {
+    margin-top: 6rem;
+  }
+  .section__pic-container {
+    height: 530px;
+  }
+  #about {
+    margin-top: 15rem;
+    margin-bottom: 18rem;
+  }
+  .experience-details-container {
+    margin-top: 0;
+  }
+
 }
 
 @media screen and (max-width: 1200px) {
